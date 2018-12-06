@@ -26,9 +26,8 @@
     </head>
 
     <body>
-
         <div class="container"> 
-            <form:form modelAttribute="cliente"  >
+            <form:form modelAttribute="cli"  >
                 <div class="text-center mb-4">
                     <h1 class="h3 mb-3 font-weight-normal">Crear Cuenta Cliente</h1>
 
