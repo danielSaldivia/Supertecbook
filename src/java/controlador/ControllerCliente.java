@@ -20,7 +20,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class ControllerCliente {
 
     @RequestMapping(value = "/cliente", method = RequestMethod.GET)
-    public String demo(ModelMap map) {
+    public String cliente (ModelMap map) {
         map.addAttribute("helloAgain", "Hello (Again) Spring from Netbeans!!");
         return "registroCliente";
     }
